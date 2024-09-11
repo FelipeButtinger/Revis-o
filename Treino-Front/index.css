@@ -1,0 +1,60 @@
+header{
+    display: flex  ;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+header img{
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.Header-Text{
+    display: flex;
+    align-items: center;
+}
+.Header-Text h1{
+    padding: 10px;
+    margin-right: 30px;
+    color: aliceblue;
+}
+
+.banner{
+    background-image: url(./concert-Photo.jpg);
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greetings{
+    height: 370px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.greetings p{
+    font-size: 50px;
+    margin-left: 40px;
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.greetings h2{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.greetings button{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    
+}
