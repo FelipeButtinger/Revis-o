@@ -1,33 +1,41 @@
-header{
-    display: flex  ;
+@media screen and (min-width: 720px) {
+  body {
+    margin: 0;
+  }
+  #headerDesktop {
+    display: flex;
     justify-content: space-between;
     background-color: blueviolet;
-}
-header img{
+  }
+  #headerMobile {
+    display: none;
+  }
+  header img {
     margin-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-.Header-Text{
+    max-width: 10%;
+  }
+  .Header-Text {
     display: flex;
     align-items: center;
-}
-.Header-Text h1{
+  }
+  .Header-Text h1 {
     padding: 10px;
     margin-right: 30px;
     color: aliceblue;
-}
+  }
 
-.banner{
+  .banner {
     background-image: url(./concert-Photo.jpg);
     height: 1000px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.greetings{
+  .greetings {
     height: 370px;
     width: 600px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -35,26 +43,102 @@ header img{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    text-align: center;
+  }
 
-}
-
-.greetings p{
+  .greetings p {
     font-size: 50px;
-    margin-left: 40px;
-    color: aliceblue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.greetings h2{
-    color: aliceblue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
-.greetings button{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .greetings h2 {
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+
+  .greetings button {
     font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     color: white;
     background-color: blueviolet;
     border-radius: 5px;
-    
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    margin: 0;
+  }
+  #headerDesktop {
+    display: none;
+  }
+  #headerMobile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #Header-Logo {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: blueviolet;
+  }
+  header img {
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 40%;
+  }
+  .Header-Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkkhaki;
+    width: 100%;
+  }
+  .Header-Text h1 {
+    color: aliceblue;
+  }
+
+  .banner {
+    background-image: url(./concert-Photo.jpg);
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .greetings {
+    height: 370px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .greetings p {
+    font-size: 50px;
+
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .greetings h2 {
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+
+  .greetings button {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+  }
 }
