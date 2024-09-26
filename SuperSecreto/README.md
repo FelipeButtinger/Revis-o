@@ -1,2 +1,0 @@
-# SuperSecreto
-Super Mega Secreto
